@@ -183,6 +183,7 @@ namespace BotwRandoLib
         internal static List<uint> GetKeyItemLocations()
         {
             List<uint> chests = new List<uint>();
+            //Rito Village Area + Dungeons Chests
             chests.Add(2588303677);
             chests.Add(1994756610);
             chests.Add(554021750);
@@ -207,6 +208,8 @@ namespace BotwRandoLib
             chests.Add(2875625519);
             chests.Add(159148495);
             chests.Add(3513544036);
+            chests.Add(1149811241);
+            //Kakariko Village Area + Dungeons Chests
             return chests;
         }
 
