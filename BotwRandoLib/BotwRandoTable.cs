@@ -32,6 +32,11 @@ namespace BotwRandoLib
             ChestDropTable.Add(new KeyValuePair<string, string>("Obj_HeroSoul_Zora", "Mipha's Grace"), 1);
             ChestDropTable.Add(new KeyValuePair<string, string>("Obj_HeroSoul_Goron", "Daruk's Protection"), 1);
 
+            ChestDropTable.Add(new KeyValuePair<string, string>("Obj_DLC_HeroSoul_Rito", "Revali's Gale +"), 1);
+            ChestDropTable.Add(new KeyValuePair<string, string>("Obj_DLC_HeroSoul_Gerudo", "Urbosa's Fury +"), 1);
+            ChestDropTable.Add(new KeyValuePair<string, string>("Obj_DLC_HeroSoul_Zora", "Mipha's Grace +"), 1);
+            ChestDropTable.Add(new KeyValuePair<string, string>("Obj_DLC_HeroSoul_Goron", "Daruk's Protection +"), 1);
+
             ChestDropTable.Add(new KeyValuePair<string, string>("Armor_001_Head", ""), 1);
             ChestDropTable.Add(new KeyValuePair<string, string>("Armor_005_Head", ""), 1);
             ChestDropTable.Add(new KeyValuePair<string, string>("Armor_006_Head", ""), 1);
