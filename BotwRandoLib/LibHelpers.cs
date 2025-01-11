@@ -4,6 +4,7 @@ using SARCExt;
 using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Security.Cryptography.X509Certificates;
 using Toolbox.Library;
 using Toolbox.Library.IO;
 
@@ -176,6 +177,36 @@ namespace BotwRandoLib
             chests.Add(1313140003);
             chests.Add(305852247);
             chests.Add(4125758579);
+            return chests;
+        }
+
+        internal static List<uint> GetKeyItemLocations()
+        {
+            List<uint> chests = new List<uint>();
+            chests.Add(2588303677);
+            chests.Add(1994756610);
+            chests.Add(554021750);
+            chests.Add(1930134405);
+            chests.Add(2651527466);
+            chests.Add(1413590562);
+            chests.Add(4036738292);
+            chests.Add(388540865);
+            chests.Add(404901059);
+            chests.Add(1346994567);
+            chests.Add(1407963741);
+            chests.Add(1515121245);
+            chests.Add(1716309953);
+            chests.Add(3937043794);
+            chests.Add(3992374850);
+            chests.Add(450234134);
+            chests.Add(2699775799);
+            chests.Add(4270154666);
+            chests.Add(287351360);
+            chests.Add(699967431);
+            chests.Add(2260374746);
+            chests.Add(2875625519);
+            chests.Add(159148495);
+            chests.Add(3513544036);
             return chests;
         }
 
