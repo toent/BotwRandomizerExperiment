@@ -63,7 +63,7 @@ namespace BotwRandoLib
                     throw new ArgumentException("One of the supplied Paths was not valid or doesn't exist!");
 
                 // Delete the graphic pack if one already exists, and re-create it
-                string gfxPackNewPath = Path.Combine(gfxPackPath, "BotW Randomizer");
+                string gfxPackNewPath = Path.Combine(gfxPackPath, $"BreathOfTheWild_Randomizer({seed})({DateTime.Now.ToShortDateString()})");
 
                 try
                 {
